@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8fa;
+    color: #333;
+    text-align: center;
+}
+
+/* APRESENTAÇÃO */
+.apresentacao {
+    background: #ead1d9;
+    padding: 30px;
+}
+
+.apresentacao img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.apresentacao h1 {
+    color: #8b3f5c;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.apresentacao p {
+    font-size: 18px;
+    color: #6b4a55;
+}
+
+
+/* SERVIÇOS */
+.servicos {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.servicos h2 {
+    color: #8b3f5c;
+    margin: 20px 0 10px;
+}
+
+.servicos p {
+    display: inline-block;
+    background-color: #ead1d9;
+    color: #6b3047;
+    padding: 12px 25px;
+    margin: 8px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+/* SOBRE NÓS */
+
+ 
+ 
+ 
+ .sobre {
+    background-color: #fff8fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sobre h2 {
+    color: #8b3f5c;
+    margin-bottom: 20px;
+}
+
+.sobre img {
+    width: 600px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.sobre p {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 30px;
+}
+
+/* CONTATO */
+.contato {
+    background-color: #d8b8c2;
+    padding: 40px 20px;
+}
+
+.contato h2 {
+    color: #6b3047;
+    font-size: 30px;
+    margin: 20px 0 10px;
+}
+
+.contato p {
+    margin: 8px;
+    font-size: 17px;
+}
+
+.contato iframe {
+    width: 80%;
+    max-width: 800px;
+    height: 350px;
+    border: 0;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* CELULAR */
+@media (max-width: 600px) {
+
+    .apresentacao h1 {
+        font-size: 28px;
+    }
+
+    .servicos p {
+        display: block;
+        margin: 10px auto;
+        max-width: 250px;
+    }
+
+    .contato iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
